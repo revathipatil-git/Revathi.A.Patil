@@ -1,0 +1,504 @@
+body{
+    font-family:"Roboto", sans-serif ;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    width: 100vw;
+    height: 64px;
+    position: fixed;
+    justify-content: space-between;
+
+}
+
+.sidebar-menu{
+   background-color: black;
+   width: 240px;
+   height:100vh;
+}
+
+.lower-box{
+    width:232px;
+    height: 164px;
+    padding:0 4px 0 4px;
+}
+
+.up-cont i{
+    font-size: 1.25rem;
+    margin-right: 0.5rem;
+    opacity: 0.7;
+}
+.up-cont{
+    width: 200px;
+    height: 36px;
+    color: white;
+    background-color: #232323;
+    border-radius: 1.25rem;
+    padding: 0px;
+    margin-top:-1.5rem;
+    margin-left: 1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.895rem;
+}
+
+.low-cont{
+    width: 224px;
+    height: 112px;
+    padding: 0 4px 0 4px;
+}
+
+.div-1{
+    width: 192px;
+    height: 48px;
+    padding: 4px 16px 4px 16px;
+    font-size: 1rem;
+    line-height: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.div-1:hover{
+    background-color: #232323;
+    border-radius: 0.5rem;
+}
+
+.div-1 p{
+    font-size: 0.95rem;
+}
+
+.div-1-text{
+    font-size: 0.75rem;
+    opacity: 0.7;
+}
+
+.div-1 p i{
+    font-size: 0.5rem;
+}
+
+.div-2{
+    width: 192px;
+    height: 48px;
+    padding: 4px 16px 4px 16px;
+    font-size: 1rem;
+    line-height: 0.5rem;
+    margin-top: 0.5rem;
+
+}
+
+.div-2:hover{
+    background-color: #232323;
+    border-radius: 0.5rem;
+}
+
+.div-2 p{
+    font-size: 0.95rem;
+}
+
+.div-2-text{
+    font-size: 0.75rem;
+    opacity: 0.7;
+}
+
+.div-1 p i{
+    font-size: 0.5rem;
+}
+
+.main-content{
+   background-color: #121212;
+   flex: 1;
+   overflow:auto;
+   width: 100vw;
+   width: 100%;
+}
+
+.icon{
+    height: 1.5rem;
+    width: 1.5rem;
+    color: white;
+    background-color: black;
+    margin:1rem;
+    padding:0.5rem ;
+}
+
+.navbar-left{
+    display: flex;
+    height: 4rem;
+    width: 15rem;
+}
+
+.image{
+    height: 1.25rem;
+    width: 4.5rem;
+    align-self: center;
+}
+
+.nav-center{
+    display: flex;
+    height: 4rem;
+    width: 15rem;
+}
+
+.search-box i{
+    font-size: 1.25rem;
+    justify-content: center;
+    background-color:#232323;
+    color: white;
+    opacity: 0.7;
+    height: 2.5rem;
+    width: 1.25rem;
+    align-self:center;
+    margin-right: 0.5rem;
+    border-radius:0.5rem;
+}
+
+.search-box input{
+    background-color: #232323;
+    color: white;
+    border:none;
+    height: 2.5rem;
+    width: 26.6rem;
+    align-self: center;
+    font-size: 1.25rem;
+    border-radius:0.5rem;
+}
+
+.search-box{
+    height: 2.6rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.75rem;
+    margin-right: 6rem;
+}
+
+.navbar-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.connect{
+    font-size: 1.25rem;
+    margin-right: 2rem;
+}
+
+.account{
+    font-size: 1.25rem;
+    margin-right: 8rem;
+}
+
+.sidebar-menu{
+    margin-top: 4.5rem;
+}
+
+.upper-box{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    height: 15rem;
+    width: 14rem;
+    padding: 0 0.5rem 0 0.5rem;
+    margin: 0;
+    /* flex-wrap: wrap; */
+}
+
+.sidebarmenu-box1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+span{
+    height: 3rem;
+    width: 12rem;
+    padding: 0 1rem;
+    margin: 0;
+    font-size: 1rem;
+}
+
+span i{
+   font-size:1.25rem;
+   padding: 0 1rem 0 1rem;
+   justify-content: space-between;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:1.5rem 1rem 1.5rem 1rem;
+}
+
+.line{
+    border-top: 1px solid rgba(255,255,255,0.15);
+    margin:24px;
+    width:200px;
+}
+
+
+.main-content{
+    padding-top: 70px;
+}
+
+.hedder{
+    display: flex;
+    flex-direction: row;
+    height: 111.2px;
+    width: 1030.4px;
+    display: flex;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    height: 96px;
+    width: 833.6px;
+    margin-left:140px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.container-boxes{
+    height: 84 px;
+    width: 82.6px;
+    padding: 40px 0 8px 0;
+    margin:6px 6px 6px 0;
+    flex-wrap: nowrap;
+}
+
+.text-box{
+    height: 36px;
+    width: 82.6px;
+    background-color: #ffffff1a;
+    border-radius: 0.5rem;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    font-size: 14px;
+}
+
+.text{
+    font-size:10px;
+    margin: 0 12px 0 12px;
+    height: 16.8px;
+    width: 58.6px;
+}
+
+.main-content-1{
+    height: 356.912px;
+    width: 1030.400px;
+    margin: 0 0 24px 0;
+}
+
+.hedder-1{
+    width:833.6px;
+    padding: 32px 0 0 0;
+    margin: 0 98.4px 0 98.4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 68px;
+}
+
+.hedder-left:hover{
+    text-decoration: underline;
+
+}
+
+
+.hedder-right p{
+    background-color: black;
+    border: 1px solid white;
+    height: 34.400px;
+    width: 74.975px;
+    border-radius:1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.hedder-right p:hover{
+    background-color: #232323;
+}
+
+.hedder-right img:hover{
+    background-color: #232323;
+}
+
+
+
+.hedder-right img{
+    height: 18.4px;
+    width: 18.4px;
+    padding: 8px 8px 8px 8px;
+    border: 0.8px;
+    border-radius: 50%;
+    border: 1px solid white;
+    justify-content: center;
+    display: flex;
+    align-items:flex-end;
+    margin-top: 14px;
+    gap:16px;
+}
+.hedder-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+    padding-bottom: 0;
+}
+
+.body-1{
+    width: 1030.400px;
+    height: 232.11px;
+    margin:16px 0 24px 0;
+}
+
+.songs{
+    width:833.6px;
+    height:232.11px;
+    display: flex;
+    flex-direction: row;
+    margin:0 98.4px 0 98.4px;
+    overflow-x:scroll;
+    overflow-y: hidden;
+}
+
+.songs img{
+    width:262.25px;
+    height: 147.51px;
+    margin-top:-0.75rem;
+}
+
+.img-text{
+    font-size: 14px;
+    opacity: 0.7;
+    margin-top: -0.75rem;
+}
+
+.songs p{
+    font-size: 14px;
+}
+
+.img-text:hover{
+    text-decoration: underline;
+}
+
+.hedder-2{
+    width: 833.6px;
+    height: 36px;
+    padding: 32px 0 0 0;
+    margin:0 98.4px 0 98.4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hedder-2-left{
+    width: 157.63px;
+    height: 33.60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.hedder-2-left:hover{
+    text-decoration: underline;
+}
+
+.hedder-2-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hedder-2-right p{
+    border-radius: 1.5rem;
+    background-color: black;
+    border: 1px solid white;
+    width: 62.51px;
+    height: 34.4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin-top:1.95rem;
+    margin-right: 1.5rem;
+}
+
+.hedder-2-right img{
+    height: 18.4px;
+    width: 18.4px;
+    padding: 8px 8px 8px 8px;
+    border: 0.8px;
+    border-radius: 50%;
+    border: 1px solid white;
+    justify-content:center;
+    display: flex;
+    align-items:flex-end;
+    margin-top:0.75rem;
+    gap:2.5rem;
+    margin-left:1rem;
+}
+
+.hedder-2-right img:hover{
+    background-color: #232323;
+}
+
+.hedder-2-right p:hover{
+    background-color: #232323;
+}
+
+.body-2{
+    width: 1030.4px;
+    height: 248.912px;
+    margin: 16px 0 24px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.melody{
+    width:833.6px;
+    height: 233.713px;
+    margin: 0 98.4px 0 98.4px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.song-img{
+    width:147.513px;
+    height: 147.513px;
+}
+
+.melody p{
+    font-weight: 500;
+    margin-top:-0.25rem;
+}
+
+.s-t{
+    opacity:0.7;
+}
